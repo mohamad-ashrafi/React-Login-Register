@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 75px 100px;
+    background: gray;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo img{
+    width: 100px;
+}

@@ -1,0 +1,32 @@
+.navbar {
+    @apply flex justify-between items-center px-6 py-4 bg-white shadow;
+  }
+  
+  .nav-logo {
+    @apply flex items-center gap-2;
+  }
+  
+  .nav-logo img {
+    @apply w-12;
+  }
+  
+  .nav-menu {
+    @apply flex gap-6 text-gray-700;
+  }
+  
+  .nav-menu-hr {
+    @apply absolute bottom-0 left-0 w-full h-1 bg-red-500 rounded;
+  }
+  
+  .nav-login-cart {
+    @apply flex items-center gap-4;
+  }
+  
+  .nav-button {
+    @apply px-4 py-2 border border-gray-300 rounded font-semibold text-gray-700 bg-white cursor-pointer;
+  }
+  
+  .nav-cart-count {
+    @apply absolute top-0 right-0 flex justify-center items-center w-6 h-6 bg-red-500 text-white rounded-full;
+  }
+  

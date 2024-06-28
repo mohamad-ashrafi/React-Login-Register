@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "yekan";
+  src: url("./Fonts/YekanBakh/woff/YekanBakh-ExtraBlack.woff") format("woff");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "yekan";
+  src: url("./Fonts/YekanBakh/woff/YekanBakh-Black.woff") format("woff");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "yekan";
+  src: url("./Fonts/YekanBakh/woff/YekanBakh-Bold.woff") format("woff");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "yekan";
+  src: url("./Fonts/YekanBakh/woff/YekanBakh-SemiBold.woff") format("woff");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "yekan";
+  src: url("./Fonts/YekanBakh/woff/YekanBakh-Regular.woff") format("woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "yekan";
+  src: url("./Fonts/YekanBakh/woff/YekanBakh-Light.woff") format("woff");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "yekan";
+  src: url("./Fonts/YekanBakh/woff/YekanBakh-Thin.woff") format("woff");
+  font-weight: 100;
+}
+/**woff2***/
+@font-face {
+  font-family: "yekan";
+  src: url("./Fonts/YekanBakh/woff2/YekanBakh-ExtraBlack.woff2") format("woff2");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "yekan";
+  src: url("./Fonts/YekanBakh/woff2/YekanBakh-Black.woff2") format("woff2");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "yekan";
+  src: url("./Fonts/YekanBakh/woff2/YekanBakh-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "yekan";
+  src: url("./Fonts/YekanBakh/woff2/YekanBakh-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "yekan";
+  src: url("./Fonts/YekanBakh/woff2/YekanBakh-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "yekan";
+  src: url("./Fonts/YekanBakh/woff2/YekanBakh-Light.woff2") format("woff2");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "yekan";
+  src: url("./Fonts/YekanBakh/woff2/YekanBakh-Thin.woff2") format("woff2");
+  font-weight: 100;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+
+.App {
+  text-align: center;
+  direction: rtl;
+  font-family: yekan;
+  font-weight: 600;
+}
+button{
+  font-family: yekan;
+}
+input , select{
+  border: 1px solid rgb(208, 208, 208);
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
